@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Webpage</title>
+        <style>
+            nav{
+                background-color: blanchedalmond;
+                color: black;
+                font-size: 18px;
+            }
+            li::marker{
+                content:"($) ";
+            }
+
+            img{
+                height:200 px;
+                width: 400px;
+                border: 0px solid black;
+                border-radius: 8px;
+                box-shadow: 6px 6px 6px gray;
+
+            }
+
+            img:hover{
+                width:425px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color:aliceblue;padding:15px;">
+        <h1><center><b><i>Welcome to the Webpage!</i></b></center></h1>
+        <nav>
+            <a href="https://www.google.com">Google</a>&nbsp &nbsp
+            <a href="https://leetcode.com/u/gowri_3452/">LeetCode</a>&nbsp &nbsp
+            <a href=#sec1>Section1</a>&nbsp &nbsp
+            <a href="about.html">About</a>
+        </nav>
+
+        <h3>List with custom bullets</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Core Java</li>
+        </ul>
+
+        <h3>Image with basic styles</h3>
+        <img src="cricket.jpg" alt="A cricket bat and a ball">
+        <p>"A cricket bat and a ball"</p>
+        
+
+        <h3>Forms</h3>
+
+        <p>Click here to eneter your contact details</p>
+        
+        <a href="form.html">Forms</a>
+
+
+        <div>
+            <h4 id="sec1">This is a section Title</h4>
+            <p>This content is inside a section, inside a division</p>
+        </div>
+
+        <hr>
+
+        <footer>
+            <h3>Footer</h3>
+            <p>&copy; This is in the Footer.</p>
+            <a href="about.html">About</a>
+            <a href="#sec1">Section1</a>
+            <a href="#">Help</a>
+        </footer>
+    </body>
+</html>
